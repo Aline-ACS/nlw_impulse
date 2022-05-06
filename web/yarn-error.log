@@ -1,0 +1,50 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @tailwindcss/forms -D
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenJDK\openjdk-11.0.13_8\bin;C:\Users\3035\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\php-7.4.28;C:\ProgramData\ComposerSetup\bin;C:\Users\3035\AppData\Local\Android\Sdk\platform-tools;C:\Program Files (x86)\Yarn\bin\;C:\Users\3035\AppData\Local\Microsoft\WindowsApps;C:\Users\3035\AppData\Local\Programs\Microsoft VS Code\bin;C:\development\flutter\bin;C:\Program Files\heroku\bin;C:\Users\3035\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\php-7.4.28;C:\Users\3035\AppData\Roaming\Composer\vendor\bin;C:\Users\3035\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\3035\Desktop\Cursos e Testes\NLW8 Return\web\node_modules\esbuild-windows-64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "web",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "tsc && vite build",
+      "serve": "vite preview"
+    },
+    "dependencies": {
+      "@headlessui/react": "^1.6.0",
+      "phosphor-react": "^1.4.1",
+      "react": "^17.0.0",
+      "react-dom": "^17.0.0"
+    },
+    "devDependencies": {
+      "@types/react": "^17.0.0",
+      "@types/react-dom": "^17.0.0",
+      "@vitejs/plugin-react": "^1.0.0",
+      "autoprefixer": "^10.4.6",
+      "postcss": "^8.4.13",
+      "tailwindcss": "^3.0.24",
+      "typescript": "^4.3.2",
+      "vite": "^2.6.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
